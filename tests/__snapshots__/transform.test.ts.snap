@@ -1,0 +1,49 @@
+// Vitest Snapshot v1
+
+exports[`transform > fixtures > tests/fixtures/basic.ts > useSource = false 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/css';
+
+console.log(BvButton);
+"
+`;
+
+exports[`transform > fixtures > tests/fixtures/basic.ts > useSource = true 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/index';
+
+console.log(BvButton);
+"
+`;
+
+exports[`transform > fixtures > tests/fixtures/comments.ts > useSource = false 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/css';
+
+console.log(BvButton);
+"
+`;
+
+exports[`transform > fixtures > tests/fixtures/comments.ts > useSource = true 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/index';
+
+console.log(BvButton);
+"
+`;
+
+exports[`transform > fixtures > tests/fixtures/import-alias.ts > useSource = false 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/css';
+
+console.log(BvButton);
+"
+`;
+
+exports[`transform > fixtures > tests/fixtures/import-alias.ts > useSource = true 1`] = `
+"import { BvButton } from 'bootstrap-vue-plus';
+import 'bootstrap-vue-plus/es/components/button/style/index';
+
+console.log(BvButton);
+"
+`;

@@ -1,0 +1,25 @@
+{
+  "name": "unplugin-bootstrap-vue-plus-vite-example",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap-vue-plus": "^0.0.0-alpha.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.37",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4",
+    "unplugin-bootstrap-vue-plus": "workspace:*",
+    "vite": "^2.9.13",
+    "vite-plugin-inspect": "^0.5.1",
+    "vue-tsc": "^0.38.2"
+  }
+}
