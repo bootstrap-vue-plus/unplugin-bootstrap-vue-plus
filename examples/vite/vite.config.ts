@@ -22,7 +22,7 @@ export default defineConfig({
     vue(),
     BootstrapVuePlus({
       useSource: true,
-      defaultLocale: 'zh-tw',
+      defaultLocale: 'zh-cn',
     }),
     Inspect(),
   ],

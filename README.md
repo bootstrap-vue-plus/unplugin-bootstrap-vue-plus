@@ -180,7 +180,7 @@ import { BvButton } from 'other-lib'
 
 //    ↓ ↓ ↓ ↓ ↓ ↓
 
-import { BVButton } from 'other-lib'
+import { BvButton } from 'other-lib'
 import 'other-lib/es/components/button/style/css'
 ```
 
