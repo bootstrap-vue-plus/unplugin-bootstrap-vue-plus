@@ -1,9 +1,6 @@
-/* eslint-disable unicorn/better-regex */
-
+import type { ImportSpecifier } from 'es-module-lexer'
 import { init, parse } from 'es-module-lexer'
 import MagicString from 'magic-string'
-
-import type { ImportSpecifier } from 'es-module-lexer'
 import type { Options } from '../types'
 
 type FormatType = 'cjs' | 'esm'
@@ -80,12 +77,11 @@ export const transformStyle = async (source: string, options: Options) => {
   if (specifiers.length === 0) return
   const styleImports = specifiers
     .map((s) => {
-      const ret = transformImportStyle(s, source, useSource, {
+      return transformImportStyle(s, source, useSource, {
         lib,
         prefix,
         format,
       })
-      return ret
     })
     .filter((s) => s)
     .join('\n')

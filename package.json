@@ -68,7 +68,7 @@
     }
   },
   "scripts": {
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json",
     "lint:fix": "pnpm run lint --fix",
     "build": "tsup && tsx scripts/postbuild.mts",
     "build:examples": "pnpm --filter \"./examples/*\" build",

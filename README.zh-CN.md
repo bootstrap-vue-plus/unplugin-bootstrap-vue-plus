@@ -1,13 +1,13 @@
 <p align="center">
-  <img width="300px" src="https://avatars.githubusercontent.com/u/107077279">
+  <img width="300px" src="https://avatars.githubusercontent.com/u/107077279" alt="">
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.org/package/unplugin-bootstrap-vue-plus">
-    <img src="https://img.shields.io/npm/v/unplugin-bootstrap-vue-plus.svg">
+    <img src="https://img.shields.io/npm/v/unplugin-bootstrap-vue-plus.svg" alt="">
   </a>
   <a href="https://npmcharts.com/compare/unplugin-bootstrap-vue-plus?minimal=true">
-    <img src="https://img.shields.io/npm/dm/unplugin-bootstrap-vue-plus.svg">
+    <img src="https://img.shields.io/npm/dm/unplugin-bootstrap-vue-plus.svg" alt="">
   </a>
   <br>
 </p>
